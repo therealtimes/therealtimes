@@ -54,12 +54,3 @@ let month = getMonth();
 
 document.querySelector('#date').innerHTML = `${month} ${dd}, ${yyyy}`;
 
-
-/* const formatDate = date => {
-    return `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(
-      date
-    ).getFullYear()}`;
-  }; */
-
-/* today = mm + '/' + dd + '/' + yyyy;
-let date = moment(Date.now()).format("YYYY-MM-DD, dddd");*/
