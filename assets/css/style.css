@@ -199,7 +199,7 @@ section {
   text-shadow: none;
 }
 
-.archieve {
+.archive {
   text-decoration: none;
   color: white;
   font-family: Garamond;
@@ -210,7 +210,7 @@ section {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.375);
 }
 
-.archieve:hover {
+.archive:hover {
   color: rgb(162, 158, 158);
   border-radius: 15px;
   text-shadow: none;
