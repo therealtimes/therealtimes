@@ -1,9 +1,7 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
 :root {
@@ -12,7 +10,7 @@
 
 body {
   color: var(--tertiary-color);
-  font-family: 'Times New Roman', garamond, serif;
+  font-family: "Times New Roman", garamond, serif;
 }
 
 section {
@@ -23,7 +21,7 @@ section {
   /* justify-content: space-around; */
 }
 
-.hero {  
+.hero {
   background-color: black;
   background-size: cover;
   display: flex;
@@ -34,9 +32,9 @@ section {
   background-position: 100%;
 }
 
-.hero-text{
-  color:white;
-  font-size:1.2rem;
+.hero-text {
+  color: white;
+  font-size: 1.2rem;
   font-family: garamond;
   padding-bottom: 2%;
   margin-right: 0;
@@ -45,27 +43,27 @@ section {
   text-align: center;
 }
 
-.hero-images{
+.hero-images {
   height: auto;
-  margin-top:1%;
+  margin-top: 1%;
   margin-bottom: 1%;
 }
 
-.hero-title{
+.hero-title {
   display: flex;
   flex-wrap: wrap;
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
   width: 100%;
-  height: auto
+  height: auto;
 }
 
-.my-images{
+.my-images {
   background-color: black;
 }
 
-.main-image{
+.main-image {
   height: auto;
   width: 97%;
   display: flex;
@@ -114,47 +112,47 @@ section {
 } */
 
 .slogan p {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   text-decoration: none;
   color: white;
   font-family: garamond;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  padding-bottom:1%;
-  padding-left: 0; 
+  padding-bottom: 1%;
+  padding-left: 0;
   text-align: center;
 }
 
 .my-headline p {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   text-decoration: none;
   font-weight: bolder;
   color: white;
-  font-family: 'Times New Roman';
-  font-size: 2.5rem; 
+  font-family: "Times New Roman";
+  font-size: 2.5rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  padding-bottom:1%;
-  padding-left: 0; 
+  padding-bottom: 1%;
+  padding-left: 0;
   text-align: center;
 }
 
-.headline{
+.headline {
   font-size: 4rem;
   text-align: center;
 }
 
-#slogan1{
+#slogan1 {
   padding-left: 0;
   padding-right: 150px;
-  margin-left:10px;
+  margin-left: 10px;
 }
-#slogan2{
+#slogan2 {
   padding-left: 50px;
   padding-right: 250px;
 }
-#slogan3{
+#slogan3 {
   padding-left: 100px;
 }
 
@@ -170,8 +168,8 @@ section {
   background-attachment: fixed;
   background-position: 100%;
   z-index: 9999;
-  padding-top:1%;
-  padding-bottom:1%
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .navbar ul {
@@ -184,14 +182,14 @@ section {
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.3rem;
   font-weight: bolder;
   padding: 1 10px;
   font-weight: bolder;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   padding-right: 15px;
-  padding-left: 15px
+  padding-left: 15px;
 }
 
 .navbar ul li a:hover {
@@ -210,7 +208,6 @@ section {
   padding: 1 10px;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.375);
-  
 }
 
 .archieve:hover {
@@ -219,27 +216,25 @@ section {
   text-shadow: none;
 }
 
-.report{
+.report {
   text-align: center;
-  font-family: 'Times New Roman', garamond, serif;
+  font-family: "Times New Roman", garamond, serif;
   margin: 0 1.88rem;
 }
 
-.pic{
+.pic {
   height: auto;
   width: 70%;
 }
 
-
-
-.reportText{
+.reportText {
   text-align: left;
   padding-left: 1.25rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.reportText span{
+.reportText span {
   font-style: italic;
   font-weight: bold;
 }
@@ -248,18 +243,28 @@ section {
   text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
-  
 }
 
-.reportClosing span{
+.reportClosing span {
   font-weight: bolder;
   font-style: italic;
   font-size: 2.25rem;
 }
 
+.footer {
+  margin-bottom: 10%;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  border: solid 1px;
+  padding: 1%;
+}
+
+.footer span {
+  font-style: italic;
+}
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 1120px) {
-
   * {
     text-align: center;
   }
@@ -269,51 +274,44 @@ section {
     justify-content: center;
   }
 
-  
-  .hero-title{
+  .hero-title {
     width: 90%;
-    height:auto;
+    height: auto;
     margin-right: 0%;
     padding-right: 0%;
     margin-left: 15%;
-    
   }
 
   .navbar ul li a {
-    
     font-size: 1.3rem;
     padding-right: 12px;
-    padding-left: 13px
+    padding-left: 13px;
   }
 
-  
-
-  .slogan ul{
-    justify-content:space-between
+  .slogan ul {
+    justify-content: space-between;
   }
-   
+
   .slogan ul li {
-    font-size: 1.3rem; 
+    font-size: 1.3rem;
   }
-  
-  #slogan1{
+
+  #slogan1 {
     padding-left: 0;
     padding-right: 100px;
-    margin-left:0;
+    margin-left: 0;
   }
 
-  #slogan2{
+  #slogan2 {
     padding-left: 0;
     padding-right: 115px;
   }
-  #slogan3{
+  #slogan3 {
     padding-left: 0;
   }
+}
 
-} 
-  
 @media screen and (max-width: 968px) {
-
   * {
     text-align: center;
   }
@@ -323,56 +321,48 @@ section {
     justify-content: center;
   }
 
-
-  .hero-title{
+  .hero-title {
     width: 80%;
-    height:auto;
+    height: auto;
     margin-right: 0%;
     padding-right: 0%;
     margin-left: 15%;
-    
   }
 
-  .hero-text{
-    
-    font-size:1.0rem;
-    
+  .hero-text {
+    font-size: 1rem;
   }
-
 
   .navbar ul li a {
-    
     font-size: 1.1rem;
     padding-right: 10px;
-    padding-left: 10px
+    padding-left: 10px;
   }
 
-  .slogan ul{
-    justify-content:space-between
+  .slogan ul {
+    justify-content: space-between;
   }
-   
+
   .slogan ul li {
-    font-size: 1.2rem; 
-  }
-  
-  #slogan1{
-    padding-left: 0;
-    padding-right: 15px;
-    margin-left:0;
+    font-size: 1.2rem;
   }
 
-  #slogan2{
+  #slogan1 {
+    padding-left: 0;
+    padding-right: 15px;
+    margin-left: 0;
+  }
+
+  #slogan2 {
     padding-left: 0;
     padding-right: 15px;
   }
-  #slogan3{
+  #slogan3 {
     padding-left: 0;
   }
+}
 
-} 
-  
 @media screen and (max-width: 768px) {
-
   * {
     text-align: center;
   }
@@ -382,99 +372,87 @@ section {
     justify-content: center;
   }
 
-  
-  .hero-title{
+  .hero-title {
     width: 70%;
-    height:auto;
+    height: auto;
     margin-right: 0%;
     padding-right: 0%;
     margin-left: 32%;
-    
   }
 
-  .hero-text{
-    
-    font-size:0.8rem;
-  }  
-
+  .hero-text {
+    font-size: 0.8rem;
+  }
 
   .navbar ul li a {
-    
-    font-size: 1.0rem;
+    font-size: 1rem;
     padding-right: 8px;
-    padding-left: 8px
+    padding-left: 8px;
   }
 
-  .slogan ul{
-    justify-content:space-between
+  .slogan ul {
+    justify-content: space-between;
   }
-   
+
   .slogan ul li {
-    font-size: 1.1rem; 
-  }
-  
-  #slogan1{
-    padding-left: 0;
-    padding-right: 13px;
-    margin-left:0;
+    font-size: 1.1rem;
   }
 
-  #slogan2{
+  #slogan1 {
+    padding-left: 0;
+    padding-right: 13px;
+    margin-left: 0;
+  }
+
+  #slogan2 {
     padding-left: 0;
     padding-right: 13px;
   }
-  #slogan3{
+  #slogan3 {
     padding-left: 0;
   }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
   * {
-    
     text-align: center;
     font-size: 0.6em;
   }
 
-  
-
-  .hero-title{
+  .hero-title {
     width: 70%;
     height: auto;
     margin-right: 0%;
-    padding-right:0%;
+    padding-right: 0%;
     margin-left: 20%;
-       
   }
 
   .navbar ul li a {
-    
     font-size: 0.8rem;
     padding-right: 5px;
-    padding-left: 5px
+    padding-left: 5px;
   }
 
-  .slogan ul{
-    justify-content:space-between
+  .slogan ul {
+    justify-content: space-between;
   }
-   
+
   .slogan ul li {
-    font-size: 1.0rem; 
-  }
-  
-  #slogan1{
-    padding-left: 0;
-    padding-right: 12px;
-    margin-left:0;
+    font-size: 1rem;
   }
 
-  #slogan2{
+  #slogan1 {
+    padding-left: 0;
+    padding-right: 12px;
+    margin-left: 0;
+  }
+
+  #slogan2 {
     padding-left: 0;
     padding-right: 12px;
   }
-  #slogan3{
+  #slogan3 {
     padding-left: 0;
   }
-    
 }
